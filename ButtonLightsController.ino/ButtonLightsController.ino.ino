@@ -1,8 +1,8 @@
 //Basic Light Chasing Sketch for arcade cabint buttons. 
-
-int pinsCount=8;                        
-int pins[] = {10,9,8,7,6,5,4,3};          
-int default_delay = 30;
+                       
+int pins[] = {10,9,8,7,6,5,4,3};  
+int pinsCount=8;        
+int default_delay = 60;
  
 void setup() {                
   for (int i=0; i<pinsCount; i=i+1){    
